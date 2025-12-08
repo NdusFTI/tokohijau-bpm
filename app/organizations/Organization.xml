@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="ASCII"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="budi.manager">
+      <firstName>Budi</firstName>
+      <lastName>Manager</lastName>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="siti.bizdev">
+      <firstName>Siti</firstName>
+      <lastName>BizDev</lastName>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="andi.pm">
+      <firstName>Andi</firstName>
+      <lastName>ProductManager</lastName>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="eko.dev">
+      <firstName>Eko</firstName>
+      <lastName>SoftwareEngineer</lastName>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="dina.qa">
+      <firstName>Dina</firstName>
+      <lastName>QA</lastName>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="fajar.data">
+      <firstName>Fajar</firstName>
+      <lastName>DataAnalyst</lastName>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="gita.uiux">
+      <firstName>Gita</firstName>
+      <lastName>UIUX</lastName>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="hani.cs">
+      <firstName>Hani</firstName>
+      <lastName>CustomerService</lastName>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="ivan.release">
+      <firstName>Ivan</firstName>
+      <lastName>ReleaseEngineer</lastName>
+      <password encrypted="false">bpm</password>
+    </user>
+  </users>
+  <roles>
+    <role name="Manajemen">
+      <displayName>Manajemen</displayName>
+    </role>
+    <role name="BusinessDevelopment">
+      <displayName>Business Development</displayName>
+    </role>
+    <role name="ProductManager">
+      <displayName>Product Manager</displayName>
+    </role>
+    <role name="SoftwareEngineer">
+      <displayName>Software Engineer</displayName>
+    </role>
+    <role name="QualityAssurance">
+      <displayName>Quality Assurance</displayName>
+    </role>
+    <role name="DataAnalyst">
+      <displayName>Data Analyst</displayName>
+    </role>
+    <role name="UI_UX_Designer">
+      <displayName>UI UX Designer</displayName>
+    </role>
+    <role name="CustomerService">
+      <displayName>Customer Service</displayName>
+    </role>
+    <role name="ReleaseEngineer">
+      <displayName>Release Engineer</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Perusahaan">
+      <displayName>Perusahaan Tech</displayName>
+      <description>Grup Utama</description>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>budi.manager</userName>
+      <roleName>Manajemen</roleName>
+      <groupName>Perusahaan</groupName>
+    </membership>
+    <membership>
+      <userName>siti.bizdev</userName>
+      <roleName>BusinessDevelopment</roleName>
+      <groupName>Perusahaan</groupName>
+    </membership>
+    <membership>
+      <userName>andi.pm</userName>
+      <roleName>ProductManager</roleName>
+      <groupName>Perusahaan</groupName>
+    </membership>
+    <membership>
+      <userName>eko.dev</userName>
+      <roleName>SoftwareEngineer</roleName>
+      <groupName>Perusahaan</groupName>
+    </membership>
+    <membership>
+      <userName>dina.qa</userName>
+      <roleName>QualityAssurance</roleName>
+      <groupName>Perusahaan</groupName>
+    </membership>
+    <membership>
+      <userName>fajar.data</userName>
+      <roleName>DataAnalyst</roleName>
+      <groupName>Perusahaan</groupName>
+    </membership>
+    <membership>
+      <userName>gita.uiux</userName>
+      <roleName>UI_UX_Designer</roleName>
+      <groupName>Perusahaan</groupName>
+    </membership>
+    <membership>
+      <userName>hani.cs</userName>
+      <roleName>CustomerService</roleName>
+      <groupName>Perusahaan</groupName>
+    </membership>
+    <membership>
+      <userName>ivan.release</userName>
+      <roleName>ReleaseEngineer</roleName>
+      <groupName>Perusahaan</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
