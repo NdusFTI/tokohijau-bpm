@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:decision="http://www.bonitasoft.org/ns/bpm/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/bpm/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/bpm/process">
   <process:MainProcess xmi:id="_-pwUcNPwEfCRUfd1Nu301A" name="TokoHijau" bonitaModelVersion="8">
     <elements xmi:type="process:Pool" xmi:id="_-pwUcdPwEfCRUfd1Nu301A" name="SiklusProduksi">
-      <elements xmi:type="process:Lane" xmi:id="_-pwUctPwEfCRUfd1Nu301A" name="Employee lane" actor="_-pwUi9PwEfCRUfd1Nu301A">
+      <elements xmi:type="process:Lane" xmi:id="_-pwUctPwEfCRUfd1Nu301A" name="Manajemen" actor="_-pwUi9PwEfCRUfd1Nu301A">
         <elements xmi:type="process:StartEvent" xmi:id="_-pwUc9PwEfCRUfd1Nu301A" name="Start1" outgoing="_-pwUiNPwEfCRUfd1Nu301A">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_-pwUdNPwEfCRUfd1Nu301A" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_-pwUddPwEfCRUfd1Nu301A" name="" content="" returnTypeFixed="true"/>
@@ -24,14 +24,14 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_-pwUg9PwEfCRUfd1Nu301A" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_mCE3QNP0EfCRUfd1Nu301A" name="Lane1"/>
-      <elements xmi:type="process:Lane" xmi:id="_mSQBQNP0EfCRUfd1Nu301A" name="Lane2"/>
-      <elements xmi:type="process:Lane" xmi:id="_my6eUNP0EfCRUfd1Nu301A" name="Lane3"/>
-      <elements xmi:type="process:Lane" xmi:id="_nAzJUNP0EfCRUfd1Nu301A" name="Lane4"/>
-      <elements xmi:type="process:Lane" xmi:id="_nRR1UNP0EfCRUfd1Nu301A" name="Lane5"/>
-      <elements xmi:type="process:Lane" xmi:id="_na9VwNP0EfCRUfd1Nu301A" name="Lane6"/>
-      <elements xmi:type="process:Lane" xmi:id="_nm78QNP0EfCRUfd1Nu301A" name="Lane7"/>
-      <elements xmi:type="process:Lane" xmi:id="_oG51wNP0EfCRUfd1Nu301A" name="Lane8"/>
+      <elements xmi:type="process:Lane" xmi:id="_mCE3QNP0EfCRUfd1Nu301A" name="Business Development"/>
+      <elements xmi:type="process:Lane" xmi:id="_mSQBQNP0EfCRUfd1Nu301A" name="Product Manager"/>
+      <elements xmi:type="process:Lane" xmi:id="_my6eUNP0EfCRUfd1Nu301A" name="Software Engineer"/>
+      <elements xmi:type="process:Lane" xmi:id="_nAzJUNP0EfCRUfd1Nu301A" name="Quality Assurance"/>
+      <elements xmi:type="process:Lane" xmi:id="_nRR1UNP0EfCRUfd1Nu301A" name="Data Analyst"/>
+      <elements xmi:type="process:Lane" xmi:id="_na9VwNP0EfCRUfd1Nu301A" name="UI/UX Designer"/>
+      <elements xmi:type="process:Lane" xmi:id="_nm78QNP0EfCRUfd1Nu301A" name="Customer Service"/>
+      <elements xmi:type="process:Lane" xmi:id="_oG51wNP0EfCRUfd1Nu301A" name="Release Engineer"/>
       <formMapping xmi:type="process:FormMapping" xmi:id="_-pwUhNPwEfCRUfd1Nu301A">
         <targetForm xmi:type="expression:Expression" xmi:id="_-pwUhdPwEfCRUfd1Nu301A" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
