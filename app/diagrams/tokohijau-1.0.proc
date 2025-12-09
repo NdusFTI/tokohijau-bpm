@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:decision="http://www.bonitasoft.org/ns/bpm/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/bpm/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/bpm/process">
   <process:MainProcess xmi:id="_8OMZoNTwEfCmIdrdwvAetA" name="tokohijau" bonitaModelVersion="8">
     <elements xmi:type="process:Pool" xmi:id="_8OMZodTwEfCmIdrdwvAetA" name="Siklus Produksi" displayName="Siklus Produksi">
-      <elements xmi:type="process:Lane" xmi:id="_8OMZotTwEfCmIdrdwvAetA" name="Manajemen" actor="_M9JqQNTxEfCmIdrdwvAetA">
+      <elements xmi:type="process:Lane" xmi:id="_8OMZotTwEfCmIdrdwvAetA" name="Manajemen" actor="_4HBRcNUHEfCmIdrdwvAetA">
         <elements xmi:type="process:StartEvent" xmi:id="_b3KLcNTxEfCmIdrdwvAetA" name="Start" outgoing="_dibae9TxEfCmIdrdwvAetA">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_b3KygdTxEfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_b3KygNTxEfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
@@ -19,7 +19,7 @@
           <completionCondition xmi:type="expression:Expression" xmi:id="_dibadtTxEfCmIdrdwvAetA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_AmtSANTxEfCmIdrdwvAetA" name="Business Development">
+      <elements xmi:type="process:Lane" xmi:id="_AmtSANTxEfCmIdrdwvAetA" name="Business Development" actor="_YbpZ8NUJEfCmIdrdwvAetA">
         <elements xmi:type="process:Activity" xmi:id="_krHUYNTxEfCmIdrdwvAetA" name="Membuat PRD" outgoing="_pQPsc9TxEfCmIdrdwvAetA" incoming="_kPNbgNTxEfCmIdrdwvAetA">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_kPM0ctTxEfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_kPM0cdTxEfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
@@ -31,7 +31,7 @@
           <completionCondition xmi:type="expression:Expression" xmi:id="_kPM0d9TxEfCmIdrdwvAetA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_BXTogNTxEfCmIdrdwvAetA" name="Product Manager">
+      <elements xmi:type="process:Lane" xmi:id="_BXTogNTxEfCmIdrdwvAetA" name="Product Manager" actor="_ZhmVYNUJEfCmIdrdwvAetA">
         <elements xmi:type="process:Activity" xmi:id="_qGoh4NTxEfCmIdrdwvAetA" name="Rapat Koordinasi PRD" outgoing="_vRJe8tTxEfCmIdrdwvAetA" incoming="_pQPsc9TxEfCmIdrdwvAetA">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_pQPFYtTxEfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_pQPFYdTxEfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
@@ -43,7 +43,7 @@
           <completionCondition xmi:type="expression:Expression" xmi:id="_pQPFZ9TxEfCmIdrdwvAetA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_BjNWgNTxEfCmIdrdwvAetA" name="Software Engineer">
+      <elements xmi:type="process:Lane" xmi:id="_BjNWgNTxEfCmIdrdwvAetA" name="Software Engineer" actor="_awBQUNUJEfCmIdrdwvAetA">
         <elements xmi:type="process:ANDGateway" xmi:id="_vRI34NTxEfCmIdrdwvAetA" name="Pengerjaan" outgoing="_yEXNe9TxEfCmIdrdwvAetA _IEv7c9TyEfCmIdrdwvAetA _ai7G8NTyEfCmIdrdwvAetA _f6oOo9T2EfCmIdrdwvAetA" incoming="_vRJe8tTxEfCmIdrdwvAetA">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_vRI34tTxEfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_vRI34dTxEfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
@@ -70,7 +70,7 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_N7gyI9UAEfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_BuuqANTxEfCmIdrdwvAetA" name="Quality Assurance">
+      <elements xmi:type="process:Lane" xmi:id="_BuuqANTxEfCmIdrdwvAetA" name="Quality Assurance" actor="_bkv44NUJEfCmIdrdwvAetA">
         <elements xmi:type="process:Activity" xmi:id="_1N_34NTxEfCmIdrdwvAetA" name="Buat Rincian Test" outgoing="_TAs8kNT7EfCmIdrdwvAetA" incoming="_yEXNe9TxEfCmIdrdwvAetA">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_yEXNcdTxEfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_yEXNcNTxEfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
@@ -82,7 +82,7 @@
           <completionCondition xmi:type="expression:Expression" xmi:id="_yEXNdtTxEfCmIdrdwvAetA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_B3RiANTxEfCmIdrdwvAetA" name="Data Analyst">
+      <elements xmi:type="process:Lane" xmi:id="_B3RiANTxEfCmIdrdwvAetA" name="Data Analyst" actor="_cgB1YNUJEfCmIdrdwvAetA">
         <elements xmi:type="process:Activity" xmi:id="_Kod1YNTyEfCmIdrdwvAetA" name="Rancang Metrik" outgoing="_RgzQENT7EfCmIdrdwvAetA" incoming="_IEv7c9TyEfCmIdrdwvAetA">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_IEvUYtTyEfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_IEvUYdTyEfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
@@ -109,7 +109,7 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_z_Kdg9UCEfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_CDuCkNTxEfCmIdrdwvAetA" name="UI / UX Designer">
+      <elements xmi:type="process:Lane" xmi:id="_CDuCkNTxEfCmIdrdwvAetA" name="UI / UX Designer" actor="_eGQzYNUJEfCmIdrdwvAetA">
         <elements xmi:type="process:Activity" xmi:id="_cykOUNTyEfCmIdrdwvAetA" name="Buat Prototipe" outgoing="_QTXMkNT7EfCmIdrdwvAetA" incoming="_ai7G8NTyEfCmIdrdwvAetA">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_ai6f4tTyEfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_ai6f4dTyEfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
@@ -121,7 +121,7 @@
           <completionCondition xmi:type="expression:Expression" xmi:id="_ai6f59TyEfCmIdrdwvAetA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_CNZjANTxEfCmIdrdwvAetA" name="Customer Service">
+      <elements xmi:type="process:Lane" xmi:id="_CNZjANTxEfCmIdrdwvAetA" name="Customer Service" actor="_fFvTYNUJEfCmIdrdwvAetA">
         <elements xmi:type="process:Activity" xmi:id="_COan8NT3EfCmIdrdwvAetA" name=" Pelajari Fitur untuk Dukungan Pelanggan" outgoing="_L38KINT7EfCmIdrdwvAetA" incoming="_f6oOo9T2EfCmIdrdwvAetA">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_f6nnkdT2EfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_f6nnkNT2EfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
@@ -133,7 +133,7 @@
           <completionCondition xmi:type="expression:Expression" xmi:id="_f6nnltT2EfCmIdrdwvAetA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_CXxnANTxEfCmIdrdwvAetA" name="Release Engineer">
+      <elements xmi:type="process:Lane" xmi:id="_CXxnANTxEfCmIdrdwvAetA" name="Release Engineer" actor="_f-WWYNUJEfCmIdrdwvAetA">
         <elements xmi:type="process:Activity" xmi:id="_XY3LcNUCEfCmIdrdwvAetA" name="Persiapan Deployment &amp; Rilis" outgoing="_Zo-M7NUCEfCmIdrdwvAetA" incoming="_VmIpk9UCEfCmIdrdwvAetA">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_VmICgdUCEfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_VmICgNUCEfCmIdrdwvAetA" name="" content="" returnTypeFixed="true"/>
@@ -251,8 +251,15 @@
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_z_LEkdUCEfCmIdrdwvAetA"/>
         <condition xmi:type="expression:Expression" xmi:id="_z_LEktUCEfCmIdrdwvAetA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
-      <actors xmi:type="process:Actor" xmi:id="_8OMZu9TwEfCmIdrdwvAetA" documentation="This is an example of actor that is mapped to any ACME users" name="Employee actor"/>
-      <actors xmi:type="process:Actor" xmi:id="_M9JqQNTxEfCmIdrdwvAetA" name="manajemen" initiator="true"/>
+      <actors xmi:type="process:Actor" xmi:id="_4HBRcNUHEfCmIdrdwvAetA" name="Manajemen" initiator="true"/>
+      <actors xmi:type="process:Actor" xmi:id="_YbpZ8NUJEfCmIdrdwvAetA" name="BusinessDevelopment"/>
+      <actors xmi:type="process:Actor" xmi:id="_ZhmVYNUJEfCmIdrdwvAetA" name="ProductManager"/>
+      <actors xmi:type="process:Actor" xmi:id="_awBQUNUJEfCmIdrdwvAetA" name="SoftwareEngineer"/>
+      <actors xmi:type="process:Actor" xmi:id="_bkv44NUJEfCmIdrdwvAetA" name="QualityAssurance"/>
+      <actors xmi:type="process:Actor" xmi:id="_cgB1YNUJEfCmIdrdwvAetA" name="DataAnalyst"/>
+      <actors xmi:type="process:Actor" xmi:id="_eGQzYNUJEfCmIdrdwvAetA" name="UI_UX_Designer"/>
+      <actors xmi:type="process:Actor" xmi:id="_fFvTYNUJEfCmIdrdwvAetA" name="CustomerService"/>
+      <actors xmi:type="process:Actor" xmi:id="_f-WWYNUJEfCmIdrdwvAetA" name="ReleaseEngineer"/>
       <contract xmi:type="process:Contract" xmi:id="_8OMZvNTwEfCmIdrdwvAetA"/>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_8OMZvdTwEfCmIdrdwvAetA">
         <name xmi:type="expression:Expression" xmi:id="_8OMZvtTwEfCmIdrdwvAetA" content="" returnTypeFixed="true"/>
