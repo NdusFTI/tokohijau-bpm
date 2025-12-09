@@ -8,15 +8,15 @@
                 <field type="STRING" length="2048" name="strategiBisnis" nullable="false" collection="false"/>
                 <field type="STRING" length="2048" name="detailPRD" nullable="false" collection="false"/>
                 <field type="BOOLEAN" length="255" name="isPrdApproved" nullable="false" collection="false"/>
-                <field type="STRING" length="1024" name="feedbackRevisiPRD" nullable="false" collection="false"/>
-                <field type="STRING" length="2048" name="skenarioTestQA" nullable="false" collection="false"/>
-                <field type="STRING" length="1024" name="metrikDataAnalyst" nullable="false" collection="false"/>
-                <field type="STRING" length="255" name="linkPrototipeUI" nullable="false" collection="false"/>
-                <field type="STRING" length="1024" name="catatanCS" nullable="false" collection="false"/>
-                <field type="STRING" length="255" name="statusDevelopment" nullable="false" collection="false"/>
-                <field type="BOOLEAN" length="255" name="isSiapRilis" nullable="false" collection="false"/>
-                <field type="STRING" length="2048" name="logDeployment" nullable="false" collection="false"/>
-                <field type="STRING" length="2048" name="analisisPascaRilis" nullable="false" collection="false"/>
+                <field type="STRING" length="1024" name="feedbackRevisiPRD" nullable="true" collection="false"/>
+                <field type="STRING" length="2048" name="skenarioTestQA" nullable="true" collection="false"/>
+                <field type="STRING" length="1024" name="metrikDataAnalyst" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="linkPrototipeUI" nullable="true" collection="false"/>
+                <field type="STRING" length="1024" name="catatanCS" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="statusDevelopment" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isSiapRilis" nullable="true" collection="false"/>
+                <field type="STRING" length="2048" name="logDeployment" nullable="true" collection="false"/>
+                <field type="STRING" length="2048" name="analisisPascaRilis" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
